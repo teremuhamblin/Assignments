@@ -1,0 +1,109 @@
+# ==========================================
+# .gitignore - Projet NGS (BMEG 400E)
+# ==========================================
+
+# ------------------------------------------
+# Données brutes et volumineuses (NGS)
+# ------------------------------------------
+data/raw/*
+!data/raw/.gitkeep
+
+# Lectures FASTQ (compressées ou non)
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# ------------------------------------------
+# Génomes de référence et index
+# ------------------------------------------
+data/reference/*
+!data/reference/.gitkeep
+
+# Fichiers FASTA et dictionnaires de séquence
+*.fasta
+*.fa
+*.fna
+*.dict
+
+# Index BWA
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+
+# Index Bowtie2
+*.bt2
+*.bt2l
+*.1.bt2
+*.2.bt2
+*.3.bt2
+*.4.bt2
+*.rev.1.bt2
+*.rev.2.bt2
+
+# Index Samtools / IGV
+*.fai
+*.gzi
+
+# ------------------------------------------
+# Alignements et fichiers intermédiaires (SAM/BAM/CRAM)
+# ------------------------------------------
+*.sam
+*.bam
+*.bai
+*.cram
+*.crai
+*.csi
+
+# Répertoire des résultats volumineux
+results/aligned/*
+!results/aligned/.gitkeep
+
+# Fichiers de couverture génomique volumineux (si générés)
+*.bedGraph
+*.bw
+*.bigWig
+*.wig
+
+# ------------------------------------------
+# Rapports et figures temporaires
+# (Conserve les dossiers mais ignore les gros outputs générés)
+# ------------------------------------------
+results/qc_reports/*
+!results/qc_reports/.gitkeep
+results/figures/*
+!results/figures/.gitkeep
+
+# Fichiers HTML/Zip lourds de FastQC/MultiQC
+*_fastqc.html
+*_fastqc.zip
+multiqc_data/
+
+# ------------------------------------------
+# Logs et fichiers temporaires d'exécution
+# ------------------------------------------
+*.log
+*.tmp
+*.temp
+slurm-*.out
+slurm-*.err
+
+# ------------------------------------------
+# R et RStudio (spécifique au projet)
+# ------------------------------------------
+.Rhistory
+.RData
+.RDataTmp
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# ------------------------------------------
+# Environnements et caches Conda / Python locaux
+# ------------------------------------------
+conda_env/
+.conda/
+__pycache__/
+*.py[cod]
