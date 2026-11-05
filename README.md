@@ -1,18 +1,22 @@
 ###### Modèle complet et professionnel structuré selon les standards des dépôts bio-informatiques (*GitHub/GitLab*) pour ce type de devoir (*contrôle qualité, alignement de lectures NGS et analyse sous Bash / R*)
 
-Markdown
-# BMEG 400E: Genome Informatics — Assignment 1
-**Pipeline d'analyse bio-informatique et computationnelle de données NGS**
+---
 
-[![Language: Bash](https://img.shields.io/badge/Language-Bash-4EAA25.svg)](https://www.gnu.org/software/bash/)
-[![Language: R](https://img.shields.io/badge/Language-R-276DC3.svg)](https://www.r-project.org/)
-[![Conda](https://img.shields.io/badge/Environment-Conda-green.svg)](https://docs.conda.io/)
+###### README.md >> markdown
+# BMEG 400E
+- Genomes Informatiques
+- Assignment 1
+》》 **Pipeline d'analyse bio-informatique et computationnelle de données NGS**
+
+[![Language: Bash](https://img.shields.io/badge/Language-bash-FF0000.svg)](https://www.gnu.org/software/bash/)
+[![Language: Rmed](https://img.shields.io/badge/Language-Rmed-FF0000.svg)](https://www.r-project.org/)
+[![Conda](https://img.shields.io/badge/Environment-Conda-FF0000.svg)](https://docs.conda.io/)
 
 ---
 
-## 📖 Description du projet
+### 📖 Description du projet
 
-Ce dépôt contient l'ensemble des scripts, analyses et visualisations réalisés dans le cadre du **Devoir 1 (Assignment 1)** du cours **BMEG 400E (Genome Informatics)** à l'Université de la Colombie-Britannique (UBC).
+Ce dépôt contient l'ensemble des scripts, analyses et visualisations réalisés dans le cadre du **Devoir 1 (Assignment 1)** du cours **BMEG 400E (Genome Informatics)**.
 
 L'objectif de ce projet est de concevoir un pipeline computationnel reproductible permettant :
 1. L'évaluation de la qualité de données brutes de séquençage à haut débit (NGS).
@@ -48,7 +52,9 @@ bmeg400e-assignment1/
 │
 └── reports/
     └── assignment1_report.pdf  # Rapport final / Réponses aux questions
-⚙️ Prérequis et Dépendances
+```
+
+### ⚙️ Prérequis et Dépendances
 Logiciels bio-informatiques
 FastQC (v0.11.9+) : Contrôle qualité des séquences brutes.
 MultiQC (v1.14+) : Agrégation des rapports de qualité.
@@ -59,6 +65,7 @@ Bedtools : Analyse des intervalles génomiques et couverture.
 Environnement R
 R >= 4.2.0
 Bibliothèques : tidyverse, ggplot2, GenomicRanges, Rsamtools.
+
 🚀 Installation & Exécution
 1. Cloner le dépôt et configurer l'environnement
 Bash
