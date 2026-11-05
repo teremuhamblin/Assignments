@@ -79,8 +79,9 @@ bmeg400e-assignment1/
 ### 🚀 Installation & Exécution
 1. **Cloner le dépôt et configurer l'environnement**
 ```bash
-git clone https://github.com/votre-nom-utilisateur/bmeg400e-assignment1.git
-cd bmeg400e-assignment1
+git clone https://github.com/votre-nom-utilisateur/bmeg400E-Genome424
+git
+cd bmeg400E-Genome424
 ```
 
 ###### Créer et activer
