@@ -16,17 +16,17 @@
 
 ### 📖 Description du projet
 
-Ce dépôt contient l'ensemble des scripts, analyses et visualisations réalisés dans le cadre du **Devoir 1 (Assignment 1)** du cours **BMEG 400E (Genome Informatics)**.
+Ce dépôt contient l'ensemble des scripts, analyses et visualisations réalisés dans le cadre du **Devoir 1 (Assignment 1)** du cours **BMEG 400E (Genome Informatiques)**.
 
 L'objectif de ce projet est de concevoir un pipeline computationnel reproductible permettant :
-1. L'évaluation de la qualité de données brutes de séquençage à haut débit (NGS).
-2. Le pré-traitement et filtrage des lectures (*reads*).
-3. L'alignement (*mapping*) des lectures sur un génome de référence.
-4. L'évaluation statistique de l'alignement (taux de couverture, mappabilité, métriques SAM/BAM).
+》》 1. L'évaluation de la qualité de données brutes de séquençage à haut débit (NGS).
+》》 2. Le pré-traitement et filtrage des lectures (*reads*).
+》》 3. L'alignement (*mapping*) des lectures sur un génome de référence.
+》》 4. L'évaluation statistique de l'alignement (taux de couverture, mappabilité, métriques SAM/BAM).
 
 ---
 
-## 📁 Structure du répertoire
+### 📁 Structure du répertoire
 
 ```text
 bmeg400e-assignment1/
@@ -55,7 +55,7 @@ bmeg400e-assignment1/
 ```
 
 ### ⚙️ Prérequis et Dépendances
-Logiciels bio-informatiques
+- *Logiciels bio-informatiques*
 FastQC (v0.11.9+) : Contrôle qualité des séquences brutes.
 MultiQC (v1.14+) : Agrégation des rapports de qualité.
 Trimmomatic ou fastp : Filtrage et rognage des lectures.
