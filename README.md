@@ -3,7 +3,7 @@
 ---
 
 ###### README.md >> markdown
-# BMEG 400E
+# bmeg400E-Genome424
 - Genomes Informatiques
 - Assignment 1
 》》 **Pipeline d'analyse bio-informatique et computationnelle de données NGS**
