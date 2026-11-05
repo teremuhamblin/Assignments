@@ -1,0 +1,1 @@
+touch data/raw/.gitkeep data/reference/.gitkeep results/qc_reports/.gitkeep results/aligned/.gitkeep results/figures/.gitkeep
