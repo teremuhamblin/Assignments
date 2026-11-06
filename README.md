@@ -34,14 +34,14 @@ L'objectif de ce projet est de concevoir un pipeline computationnel reproductibl
 ```text
 bmeg400e-assignment1/
 │
-├── README.md                   # Documentation générale du projet
-├── environment.yml             # Environnement Conda avec les dépendances
+├── README.md                    # Documentation générale du projet
+├── environment.yml              # Environnement Conda avec les dépendances
 │
-├── data/                       # Données (exclues du suivi Git via .gitignore)
+├── data/                        # Données (exclues du suivi Git via .gitignore)
 │   ├── raw/                    # Fichiers FASTQ bruts
 │   └── reference/              # Génome de référence (FASTA) et index
 │
-├── scripts/                    # Scripts d'analyse
+├── scripts/                     # Scripts d'analyse
 │   ├── 01_qc_raw.sh            # Contrôle qualité initial (FastQC / MultiQC)
 │   ├── 02_trimming.sh         # Rognage des adaptateurs et filtrage qualité
 │   ├── 03_alignment.sh        # Indexation et alignement (BWA / Bowtie2)
