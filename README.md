@@ -8,9 +8,11 @@
 - Assignment 1
 》》 **Pipeline d'analyse bio-informatique et computationnelle de données NGS**
 
-[![Language: Bash](https://img.shields.io/badge/Language-bash-FF0000.svg)](https://www.gnu.org/software/bash/)
-[![Language: Rmd](https://img.shields.io/badge/Language-Rmd-FF0000.svg)](https://www.r-project.org/)
-[![Conda](https://img.shields.io/badge/Environment-Conda-FF0000.svg)](https://docs.conda.io/)
+---
+    
+[![Language: Bash](https://img.shields.io/badge/Language-bash-purple.svg)](https://www.gnu.org/software/bash/)
+[![Rapport: Rmd](https://img.shields.io/badge/Rapport-Rmd-purple.svg)](https://www.r-project.org/)
+[![Conda](https://img.shields.io/badge/ENV-Conda-purple.svg)](https://docs.conda.io/)
 
 ---
 
