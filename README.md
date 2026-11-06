@@ -30,7 +30,7 @@ L'objectif de ce projet est de concevoir un pipeline computationnel reproductibl
 ---
 
 ### 📁 Structure du répertoire
-
+- **v1.0** : *initiale*
 ```text
 bmeg400e-assignment1/
 │
