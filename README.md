@@ -9,7 +9,7 @@
 》》 **Pipeline d'analyse bio-informatique et computationnelle de données NGS**
 
 [![Language: Bash](https://img.shields.io/badge/Language-bash-FF0000.svg)](https://www.gnu.org/software/bash/)
-[![Language: Rmed](https://img.shields.io/badge/Language-Rmed-FF0000.svg)](https://www.r-project.org/)
+[![Language: Rmd](https://img.shields.io/badge/Language-Rmd-FF0000.svg)](https://www.r-project.org/)
 [![Conda](https://img.shields.io/badge/Environment-Conda-FF0000.svg)](https://docs.conda.io/)
 
 ---
