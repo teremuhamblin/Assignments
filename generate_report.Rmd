@@ -1,0 +1,47 @@
+---
+title: "BMEG 400E / 424 — Rapport d'analyse génomique"
+author: "Votre Nom"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    toc: true
+  html_document:
+    theme: cosmo
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk\$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(knitr)
+```
+
+## 1. Résumé de l'alignement (BWA-MEM / SAMtools)
+
+```{r alignment-table}
+align_csv <- "results/aligned/alignment_summary.csv"
+if (file.exists(align_csv)) {
+  kable(read.csv(align_csv), caption = "Statistiques d'alignement par échantillon")
+} else {
+  cat("Exécutez d'abord scripts/05_analysis.R pour générer alignment_summary.csv.")
+}
+```
+
+```{r fig-mapping, out.width="80%", fig.align="center"}
+if (file.exists("results/figures/01_mapping_rate.png")) {
+  knitr::include_graphics("results/figures/01_mapping_rate.png")
+}
+```
+
+## 2. Profondeur de couverture génomique
+
+```{r coverage-table}
+cov_csv <- "results/aligned/coverage_summary.csv"
+if (file.exists(cov_csv)) {
+  kable(read.csv(cov_csv), caption = "Résumé de la profondeur de couverture")
+}
+```
+
+```{r fig-coverage, out.width="80%", fig.align="center"}
+if (file.exists("results/figures/02_coverage_distribution.png")) {
+  knitr::include_graphics("results/figures/02_coverage_distribution.png")
+}
+```
