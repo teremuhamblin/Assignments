@@ -1,8 +1,7 @@
-### 2. Version reStructuredText (`docs/index.rst`)
+Version reStructuredText (`docs/index.rst`)
 
 Ce fichier est prêt à être intégré dans un projet de documentation Sphinx (avec génération HTML via `make html`) :
 
-```rst
 .. BMEG 400E / Genome 424 documentation master file.
 
 BMEG 400E / Genome 424 : Genome Informatics
